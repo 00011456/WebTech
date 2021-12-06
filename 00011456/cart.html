@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant by 00011456</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="check" class="burger-label">
+              <input type="checkbox" id="check" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="active">Menu</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="cart.html"> Cart </a></li>
+                  <li><a href="bar.html"> Bar </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav">
+            <img src="/assets/logo.svg" alt="logo" class="header__nav--logo" />
+            <nav>
+              <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="delivery.html"> Delivery </a></li>
+                <li><a href="contacts.html"> Contacts </a></li>
+                <li><a href="bar.html"> Bar </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__cart">
+            <a href="cart.html">
+              <img
+                src="./assets/cart.svg"
+                alt="Cart header__cart--icon"
+                class="header__cart--icon"
+              />
+            </a>
+            <div class="header__cart--data">
+              <span>12</span>
+              <span>1000 $</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li>Burgers</li>
+          <li>Soups</li>
+          <li>Salads</li>
+          <li>Sandwiches</li>
+          <li>Breakfast</li>
+          <li>Pasta</li>
+          <li>Snacks</li>
+          <li>Desserts</li>
+          <li>Beverages</li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <section class="cart">
+        <div class="container">
+          <h1 class="section__heading">Checkout</h1>
+          <div class="cart__box" id="cartItem-1">
+            <div class="cart__card">
+              <div class="cart__card--title">
+                <img
+                  src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  alt="Burger Icon"
+                />
+                <p>Babushka Burger</p>
+              </div>
+              <div class="cart__card--pricing">
+                <input type="number" value="50" disabled /> <span>$</span>
+                <div class="addsub">
+                  <input type="number" value="1" disabled />
+                  <img src="./assets/sub.svg" alt="Sub Icon" />
+                  <img src="./assets/add.svg" alt="Add Icon" />
+                </div>
+              </div>
+            </div>
+            <div class="cancel" id="cancel-1">
+              <img src="/assets/cancel.svg" alt="Cancel Icon" />
+            </div>
+          </div>
+          <div class="cart__box" id="cartItem-2">
+            <div class="cart__card">
+              <div class="cart__card--title">
+                <img
+                  src="https://images.unsplash.com/photo-1622020367723-04057acd56b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                  alt="Burger Icon"
+                />
+                <p>Big One</p>
+              </div>
+              <div class="cart__card--pricing">
+                <input type="number" value="80" disabled /> <span>$</span>
+                <div class="addsub">
+                  <input type="number" value="1" disabled />
+                  <img src="./assets/sub.svg" alt="Sub Icon" />
+                  <img src="./assets/add.svg" alt="Add Icon" />
+                </div>
+              </div>
+            </div>
+            <div class="cancel" id="cancel-2">
+              <img src="/assets/cancel.svg" alt="Cancel Icon" />
+            </div>
+          </div>
+          <div class="checkout">
+            <div class="checkout__price">
+              <p>Price:</p>
+              <span>130 $</span>
+            </div>
+            <div class="checkout__delivery">
+              <p>Delivery:</p>
+              <span>Free</span>
+            </div>
+          </div>
+          <div class="checkout__btn">
+            <button>
+              <a href="order.html"> Order </a>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <p>
+            Work day and night <br />
+            Delivering from 9:00 to 23:00
+          </p>
+          <div class="copyright">
+            2021 © Californiadiner
+            <span>Policy</span>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <p>+7 499 579-80-04</p>
+          <div class="socials">
+            <img src="./assets/inst.svg" alt="Inst Icon" />
+            <img src="./assets/vk.svg" alt="VK Icon" />
+          </div>
+        </div>
+      </div>
+      <p class="webtech">
+        This website was created to fulfill Web Technology module’s requirements
+        and does not represent an actual company or service
+      </p>
+    </footer>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant by 00011456</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="check" class="burger-label">
+              <input type="checkbox" id="check" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="active">Menu</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="cart.html"> Cart </a></li>
+                  <li><a href="bar.html"> Bar </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav">
+            <img src="/assets/logo.svg" alt="logo" class="header__nav--logo" />
+            <nav>
+              <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="delivery.html"> Delivery </a></li>
+                <li><a href="contacts.html"> Contacts </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__cart">
+            <a href="cart.html">
+              <img
+                src="./assets/cart.svg"
+                alt="Cart header__cart--icon"
+                class="header__cart--icon"
+              />
+            </a>
+            <div class="header__cart--data">
+              <span>12</span>
+              <span>1000 $</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li>Burgers</li>
+          <li>Soups</li>
+          <li>Salads</li>
+          <li>Sandwiches</li>
+          <li>Breakfast</li>
+          <li>Pasta</li>
+          <li>Snacks</li>
+          <li>Desserts</li>
+          <li>Beverages</li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <section class="order">
+        <div class="container">
+          <h1 class="section__heading">Make a order</h1>
+          <div class="order-forms">
+            <div class="order-data">
+              <form
+                class="order-form"
+                id="contact"
+                name="contact"
+                onsubmit="return validateFormOnSubmit(this)"
+              >
+                <h3 class="order-form__heading">Personal Data</h3>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="name"
+                  id="name"
+                  tabindex="1"
+                  autofocus
+                />
+                <div id="name-error" class="error"></div>
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  required
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  tabindex="2"
+                  autofocus
+                />
+                <div id="phone-error" class="error"></div>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  required
+                  name="email"
+                  id="email"
+                  tabindex="3"
+                  autofocus
+                />
+                <div id="email-error" class="error"></div>
+                <button class="btn">Submit</button>
+              </form>
+              <div class="order-form">
+                <h3 class="order-form__heading">Delivery</h3>
+                <select>
+                  <option value="0">City</option>
+                  <option value="1">Tashkent</option>
+                  <option value="2">Fergana</option>
+                </select>
+                <select>
+                  <option value="0">Street</option>
+                  <option value="1">Mirzo-Ulugbek</option>
+                  <option value="2">C1</option>
+                  <option value="3">Mirabadskiy</option>
+                </select>
+                <input type="text" placeholder="Home" />
+                <input type="number" placeholder="Flat Number" />
+                <textarea placeholder="Additional information to order">
+Additional information to order
+                </textarea>
+                <h4 class="order-form__text">Way of Delivering</h4>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    id="taxi"
+                    name="fav_language"
+                    value="taxi"
+                  />
+                  <label for="taxi">Taxi</label><br />
+                </div>
+                 
+
+                <h4 class="order-form__text">Way of Payment</h4>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    id="cash"
+                    name="fav_language"
+                    value="cash"
+                  />
+                  <label for="cash">Cash</label><br />
+                </div>
+                 
+                <div class="radio">
+                  <input
+                    type="radio"
+                    id="card"
+                    name="fav_language"
+                    value="card"
+                  />
+                  <label for="card">Credit card</label><br />
+                </div>
+              </div>
+            </div>
+            <div class="order-result">
+              <h3 class="order-form__heading">Checklist</h3>
+              <div class="order-result__card">
+                <div class="order-result__item">
+                  <p>Babushka Burger</p>
+                  <span>50 $</span>
+                </div>
+                <div class="order-result__item">
+                  <p>French Fries</p>
+                  <span>10 $</span>
+                </div>
+                <div class="order-result__total">
+                  <p>Total:</p>
+                  <span>60 $</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="btn">Send my order</button>
+            <a href="/index.html" class="back">Back to menu</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <p>
+            Work day and night <br />
+            Delivering from 9:00 to 23:00
+          </p>
+          <div class="copyright">
+            2021 © Californiadiner
+            <span>Policy</span>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <p>+7 499 579-80-04</p>
+          <div class="socials">
+            <img src="./assets/inst.svg" alt="Inst Icon" />
+            <img src="./assets/vk.svg" alt="VK Icon" />
+          </div>
+        </div>
+      </div>
+      <p class="webtech">
+        This website was created to fulfill Web Technology module’s requirements
+        and does not represent an actual company or service
+      </p>
+    </footer>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+    <script src="formValidate.js"></script>
+  </body>
+</html>

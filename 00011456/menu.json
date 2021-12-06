@@ -1,0 +1,216 @@
+[
+  {
+    "id": "1",
+    "title": "Burgers",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Babushka Burger",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=422&q=80",
+        "burgerName": "Cheeese Baby",
+        "price": "110"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+        "burgerName": "Big Mac",
+        "price": "80"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Kushay - Tolstey",
+        "price": "10"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1572448862527-d3c904757de6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Diablo",
+        "price": "70"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1582196016295-f8c8bd4b3a99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Black Burger",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Soups",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Vegeterian Soup",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "burgerName": "Pumpkin Ginger Soup",
+        "price": "110"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1604152135912-04a022e23696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Pumpkin cream soup",
+        "price": "80"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1574653853117-0274131c2175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+        "burgerName": "Luxury Taste",
+        "price": "10"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1612815160404-a0c14cb731d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Beef Soup",
+        "price": "70"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1611068120813-eca5a8cbf793?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Borsh",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Salads",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1078&q=80",
+        "burgerName": "Spring",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Pumpkin Ginger Salad",
+        "price": "110"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1537785713284-0015ce8a145c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "burgerName": "Salad with a zingy dressing",
+        "price": "80"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1505576733088-f8a0f2f4b8a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80",
+        "burgerName": "Salad with melon and grapes",
+        "price": "10"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1604909052743-94e838986d24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Salad with herbs",
+        "price": "70"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Sandwiches",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1622020367723-04057acd56b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+        "burgerName": "Big One",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1619531038896-deaff53d151a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+        "burgerName": "Cheesy Mushroom Sandwiches",
+        "price": "110"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Breakfast",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1619540158662-bb74607515f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+        "burgerName": "Croissant",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+        "burgerName": "Tasty start",
+        "price": "110"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Pancakes",
+        "price": "110"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Pasta",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=392&q=80",
+        "burgerName": "Po-flotskiy",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Slivochniy",
+        "price": "110"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "burgerName": "Spicy seafood pasta",
+        "price": "110"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Snacks",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1517093602195-b40af9688b46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Set of snacks",
+        "price": "50"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Desserts",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1078&q=80",
+        "burgerName": "Pancakes",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Muffin",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1533910534207-90f31029a78e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Donuts",
+        "price": "50"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Beverages",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=393&q=80",
+        "burgerName": "Moxito",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1611928237590-087afc90c6fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "burgerName": "Milk Shake",
+        "price": "50"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1604085792782-8d92f276d7d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "burgerName": "Pistachio smoothie",
+        "price": "50"
+      }
+    ]
+  }
+]

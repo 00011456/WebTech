@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant by 00011456</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="check" class="burger-label">
+              <input type="checkbox" id="check" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="active">Menu</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="cart.html"> Cart </a></li>
+                  <li><a href="bar.html"> Bar </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav">
+            <img src="/assets/logo.svg" alt="logo" class="header__nav--logo" />
+            <nav>
+              <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="delivery.html" class="active"> Delivery </a></li>
+                <li><a href="contacts.html"> Contacts </a></li>
+                <li><a href="bar.html"> Bar </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__cart">
+            <a href="cart.html">
+              <img
+                src="./assets/cart.svg"
+                alt="Cart header__cart--icon"
+                class="header__cart--icon"
+              />
+            </a>
+            <div class="header__cart--data">
+              <span>12</span>
+              <span>1000 $</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li>Burgers</li>
+          <li>Soups</li>
+          <li>Salads</li>
+          <li>Sandwiches</li>
+          <li>Breakfast</li>
+          <li>Pasta</li>
+          <li>Snacks</li>
+          <li>Desserts</li>
+          <li>Beverages</li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <section class="delivery">
+        <div class="container">
+          <h1 class="section__heading">Delivery</h1>
+          <p class="delivery__text">
+            Food Delivering from California Diner <br />
+            <span>Yummy american food with delivery option in Moscow</span>
+          </p>
+          <div class="delivery__box">
+            <div class="delivery__card">
+              <img src="./assets/delivery-1.svg" alt="Delivery Icon" />
+              <p>Fast delivering</p>
+            </div>
+            <div class="delivery__card">
+              <img src="./assets/delivery-2.svg" alt="Delivery Icon" />
+              <p>Minimum amount of order: 20$</p>
+            </div>
+            <div class="delivery__card">
+              <img src="./assets/delivery-1.svg" alt="Delivery Icon" />
+              <p>Working hours: <br />9:00-23:00</p>
+            </div>
+          </div>
+          <p class="delivery__additional">
+            To order, contact us on <a href="contacts.html">Contacts</a> section
+          </p>
+        </div>
+      </section>
+      <div id="map"></div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <p>
+            Work day and night <br />
+            Delivering from 9:00 to 23:00
+          </p>
+          <div class="copyright">
+            2021 © Californiadiner
+            <span>Policy</span>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <p>+7 499 579-80-04</p>
+          <div class="socials">
+            <img src="./assets/inst.svg" alt="Inst Icon" />
+            <img src="./assets/vk.svg" alt="VK Icon" />
+          </div>
+        </div>
+      </div>
+      <p class="webtech">
+        This website was created to fulfill Web Technology module’s requirements
+        and does not represent an actual company or service
+      </p>
+    </footer>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

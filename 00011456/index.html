@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant by 00011456</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="check" class="burger-label">
+              <input type="checkbox" id="check" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="active">Menu</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="cart.html"> Cart </a></li>
+                  <li><a href="bar.html"> Bar </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav">
+            <img src="/assets/logo.svg" alt="logo" class="header__nav--logo" />
+            <nav>
+              <ul>
+                <li><a href="index.html" class="active">Menu</a></li>
+                <li><a href="delivery.html"> Delivery </a></li>
+                <li><a href="contacts.html"> Contacts </a></li>
+                <li><a href="bar.html"> Bar </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__cart">
+            <a href="cart.html">
+              <img
+                src="./assets/cart.svg"
+                alt="Cart header__cart--icon"
+                class="header__cart--icon"
+              />
+            </a>
+            <div class="header__cart--data">
+              <span id="count">12</span>
+              <span>1000 $</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+        <ul>
+          <li>Burgers</li>
+          <li>Soups</li>
+          <li>Salads</li>
+          <li>Sandwiches</li>
+          <li>Breakfast</li>
+          <li>Pasta</li>
+          <li>Snacks</li>
+          <li>Desserts</li>
+          <li>Beverages</li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Banner -->
+      <section class="banner">
+        <div class="banner__gallery">
+          <img
+            src="https://images.unsplash.com/photo-1594179047519-f347310d3322?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="Banner Pic 1"
+            id="img-1"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="Banner Pic 2"
+            class="display-none"
+            id="img-2"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+            alt="Banner Pic 3"
+            class="display-none"
+            id="img-3"
+          />
+          <p class="banner__text">Sales Banner</p>
+        </div>
+        <div class="banner__nav">
+          <span class="active" id="dot-1"></span>
+          <span id="dot-2"></span>
+          <span id="dot-3"></span>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section class="menu">
+        <div class="container" id="menu-container"></div>
+      </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <p>
+            Work day and night <br />
+            Delivering from 9:00 to 23:00
+          </p>
+          <div class="copyright">
+            2021 © Californiadiner
+            <span>Policy</span>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <p>+7 499 579-80-04</p>
+          <div class="footer-contacts__social">
+            <img src="./assets/inst.svg" alt="Inst Icon" />
+            <img src="./assets/vk.svg" alt="VK Icon" />
+          </div>
+        </div>
+      </div>
+      <p class="webtech">
+        This website was created to fulfill Web Technology module’s requirements
+        and does not represent an actual company or service
+      </p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
