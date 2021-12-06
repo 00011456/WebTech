@@ -18,3 +18,7 @@ This website shows dynamic data for users where they have cart, order, contacts,
 If you want just look at the final version go to - [Netlify](https://00011456.netlify.app/).                                                              
 If you wan to play around, follow some steps:
                                                              
+    Clone this repo to your local machine.
+    Using the terminal, navigate to the cloned repo.
+    Install all the neccessary dependencies, as stipulated in the package.json file.
+    Run it using live server or just open through .html file
